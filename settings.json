@@ -1,0 +1,116 @@
+{
+    "diffEditor.renderSideBySide": false, // Git の差分を行内に表示
+    "editor.colorDecorators": false, // カラーデコレーターを非表示
+    "editor.formatOnPaste": true, // ペースト時に自動でフォーマット
+    "editor.formatOnSave": true, // ファイル保存時に自動でフォーマット
+    "editor.formatOnType": true, // 入力した行を自動でフォーマット
+    "editor.minimap.renderCharacters": false, // ミニマップの表示文字をブロックに変更
+    "editor.minimap.showSlider": "always", // 表示領域をミニマップで常にハイライト
+    "editor.multiCursorModifier": "ctrlCmd", // マウスでの複数選択時の修飾キーを変更
+    "editor.renderControlCharacters": true, // 制御文字を表示
+    "editor.renderLineHighlight": "all", // 選択行を行番号含めすべてハイライト
+    "editor.renderWhitespace": "all", // 半角スペースを常に表示
+    "editor.snippetSuggestions": "top", // Emmet などのスニペット候補を優先して表示
+    "editor.tabSize": 2, // タブのサイズ変更
+    "editor.wordWrap": "on", // エディターの幅で折り返し
+    "emmet.showSuggestionsAsSnippets": true, // Emmet の候補を表示
+    "emmet.triggerExpansionOnTab": true, // TAB キーで Emmet を展開できるようにする
+    "emmet.variables": { // Emmet で展開される HTML の言語を変更
+        "lang": "ja"
+    },
+    "explorer.confirmDelete": false, // ファイル削除時の確認を表示しない
+    "files.associations": { // ファイルと言語の関連付けを変更
+        ".*lintrc": "json"
+    },
+    "files.exclude": { // エクスプローラーから非表示にするファイル
+        "**/*.map": true,
+        "**/node_modules": true
+    },
+    "files.insertFinalNewline": true, // ファイルの保存時に末尾を改行
+    "files.trimFinalNewlines": true, // ファイルの保存時に最終行以降をトリミング
+    "files.trimTrailingWhitespace": true, // ファイルの保存時に行末の空白をトリミング
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false // Markdown のファイルは行末の空白をトリミングしない
+    },
+    "html.format.contentUnformatted": "pre, code, textarea, title, h1, h2, h3, h4, h5, h6, p", // タグ内の記述はフォーマットしない
+    "html.format.extraLiners": "", // head, body, /html タグの前に改行を入れない
+    "html.format.unformatted": null, // フレージング・コンテンツ（旧インライン要素のようなタグ）はフォーマットしない
+    "html.format.wrapLineLength": 0, // 行の文字数制限を無くし自動で改行させない
+    "search.exclude": { // 検索対象外にするファイル設定（ files.exclude のファイルも含む）
+        "**/tmp": true
+    },
+    "window.openFoldersInNewWindow": "on", // 新規ワークスペースを別ウインドウで開く
+    "window.title": "${activeEditorMedium}${separator}${rootName}", // ウインドウ上部に表示する文字列の設定
+    "workbench.editor.labelFormat": "short", // タブに表示する文字列の設定
+    "workbench.editor.tabSizing": "shrink", // タブの表示設定
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "vscode-icons",
+    "C_Cpp.updateChannel": "Insiders",
+    "vsicons.dontShowNewVersionMessage": true,
+    "latex-workshop.view.pdf.viewer": "browser",
+    "git.autofetch": true,
+    "workbench.colorTheme": "Tomorrow Night Blue",
+    "git.confirmSync": false,
+    "peacock.favoriteColors": [
+        {
+            "name": "Angular Red",
+            "value": "#b52e31"
+        },
+        {
+            "name": "Auth0 Orange",
+            "value": "#eb5424"
+        },
+        {
+            "name": "Azure Blue",
+            "value": "#007fff"
+        },
+        {
+            "name": "C# Purple",
+            "value": "#68217A"
+        },
+        {
+            "name": "Gatsby Purple",
+            "value": "#639"
+        },
+        {
+            "name": "Go Cyan",
+            "value": "#5dc9e2"
+        },
+        {
+            "name": "Java Blue-Gray",
+            "value": "#557c9b"
+        },
+        {
+            "name": "JavaScript Yellow",
+            "value": "#f9e64f"
+        },
+        {
+            "name": "Mandalorian Blue",
+            "value": "#1857a4"
+        },
+        {
+            "name": "Node Green",
+            "value": "#215732"
+        },
+        {
+            "name": "React Blue",
+            "value": "#00b3e6"
+        },
+        {
+            "name": "Something Different",
+            "value": "#832561"
+        },
+        {
+            "name": "Vue Green",
+            "value": "#42b883"
+        }
+    ],
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "files.autoGuessEncoding": true,
+    "window.zoomLevel": 0, // Welcome Page を表示しない
+    "C_Cpp.clang_format_style": "{ BasedOnStyle: LLVM, BreakBeforeBraces: Attach, SpaceBeforeParens: Never, IndentWidth: 4 }",
+    "[c]": {
+        "editor.SpaceSize": 4,
+    },
+    "explorer.confirmDragAndDrop": false,
+}
